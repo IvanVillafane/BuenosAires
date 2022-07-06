@@ -184,13 +184,15 @@ header  {
 }
 
 .main-heading{
-    font-size: 6rem;
-    font-weight: 800;
-    letter-spacing: 1rem;
+margin-left: 15%;    
+    font-size: 3.5rem;
+    font-weight: 600;
+    letter-spacing: .5rem;
 }
 
 .sub-heading{
     font-size: 1.6rem;
+    margin-left: 7%;    
     font-weight: 400;
     letter-spacing: .5rem;
 }
@@ -267,5 +269,17 @@ header  {
     }
     .cta-btn{
 margin-top: 3rem;    }
+    
+}
+@media screen and(max-width:300px) {
+
+    .main-heading{
+        font-size: 5px;
+    }
+    .sub-heading{
+        font-size: 5px;
+    }
+    .cta-btn{
+margin-top: .1rem;    }
     
 }
